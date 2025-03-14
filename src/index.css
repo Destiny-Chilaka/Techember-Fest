@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-sm: 400px;
+  --breakpoint-md: 680px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+}
+
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87); 
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: radial-gradient(at center bottom, #003f4d96, #02191D, #02191D);
+  min-height: 100vh;
+}
+
+.road-rage-regular {
+  font-family: "Road Rage", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.baskervville {
+  font-family: "Baskervville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
