@@ -34,14 +34,14 @@ const TicketSelection = () => {
     specialRequest: false,
   });
 
-  // Ref for the ticket content
+  // Ref for the ticket content 
   const ticketRef = useRef(null);
 
   // Ticket type options
   const ticketTypes = [
-    { name: "Regular Access", price: "Free", available: "20/52" },
-    { name: "VIP Access", price: "$150", available: "20/52" },
-    { name: "VVIP Access", price: "$150", available: "20/52" },
+    { name: "Regular Access", price: "Free", available: "10/70" },
+    { name: "VIP Access", price: "$150", available: "50/100" },
+    { name: "VVIP Access", price: "$300", available: "5/20" },
   ];
 
   // Load initial state from localStorage on component mount
