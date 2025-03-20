@@ -414,7 +414,7 @@ const TicketSelection = () => {
           {/* Step 3: Ticket Confirmation */}
           {currentStep === 3 && (
             <>
-              <div ref={ticketRef}>
+              <div className="py-2 px-2" ref={ticketRef}>
                 <p className="text-white font-bold text-2xl mb-2 text-center">Your Ticket is Booked!</p>
                 <p className="text-white font-light text-sm mb-4 text-center break-words">
                   Check your email for a copy you can <strong>download</strong>
