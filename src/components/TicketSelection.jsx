@@ -414,7 +414,7 @@ const TicketSelection = () => {
           {/* Step 3: Ticket Confirmation */}
           {currentStep === 3 && (
             <>
-              <div>
+              <div ref={ticketRef}>
                 <p className="text-white font-bold text-2xl mb-2 text-center">Your Ticket is Booked!</p>
                 <p className="text-white font-light text-sm mb-4 text-center break-words">
                   Check your email for a copy you can <strong>download</strong>
@@ -422,7 +422,7 @@ const TicketSelection = () => {
                 <div
                   className="p-4 rounded-2xl border border-[#0E464F] text-center bg-[#07373F]"
                   style={borderBottom}
-                  ref={ticketRef}
+                  
                 >
                   <h3 className="text-4xl text-white font-semibold mb-2 road-rage-regular">Techember Fest '25</h3>
                   <p className="text-white font-light mb-1">📅 March 15, 2025 7:00 PM</p>
@@ -503,7 +503,7 @@ const TicketSelection = () => {
                   className="border border-[#24A0B5] px-2 py-2 text-white rounded-lg bg-[#24A0B5] hover:bg-[#249fb59d] transition-colors baskervville font-light"
                 >
                   Download Ticket
-                </button>
+                </button> 
               </>
             )}
           </div>
